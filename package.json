@@ -1,0 +1,19 @@
+{
+  "name": "musicbox2slack",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Philipp Bosch <philipp@acolorbright.com>",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "slack": "^8.1.0",
+    "ws": "^1.1.1"
+  },
+  "bin": {
+    "musicbox2slack": "bin/musicbox2slack.js"
+  }
+}
